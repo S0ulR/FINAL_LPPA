@@ -1,6 +1,7 @@
 #FINAL_LPPA
 
 Juego original https://wordle.danielfrg.com/
+Repositorio del trabajo: https://github.com/S0ulR/FINAL_LPPA.git
 
 Agregar funcionalidad de guardar y cargar partida en el juego usando LocalStorage. 
 El jugador puede guardar el progreso de una a más partidas, haciendo click en un botón que diga “guardar partida”, guardando la palabra ganadora elegida y el progreso realizado por el usuario hasta elmomento de guardar la partida en LocalStorage. 
