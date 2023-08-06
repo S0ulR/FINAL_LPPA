@@ -22,40 +22,45 @@ header {
     min-height: 130px;
     padding-top: 20px;
     font-size: 40px;
-    color: rgb(231, 222, 222);
+    background-color: #FF00C1;
+    color: #fff;
+    text-shadow: 2px 2px #73706e;
 }
 
+ header div{
+    background-color: #FF00C1;
+    color: #fff;
+    text-shadow: 2px 2px #73706e;
+ }
+
 .header {
-    color: #181818;
+    background-color: #FF00C1;
+    color: #fff;
+    border: 1px #73706e;
+    text-shadow: 2px 2px #73706e;
     text-align: center;
     padding-bottom: 10px;
 }
 
 .header :link {
-    color: #181818;
+    background-color: #FF00C1;
+    color: #fff;
+    text-shadow: 2px 2px #73706e;
     text-decoration: none;
 }
 
 .header :visited {
     text-decoration: none;
-    color: #181818;
 }
 
 .button-nav {
-    background-color: #f1f1f1;
     min-width: 80px;
     padding: 5px;
     margin: 5px;
     cursor: pointer;
 }
 
-.button-nav a{
-    text-decoration: none;
-    background: none;
-}
-
 .button-nav :link {
-    background-color: #181818;
     text-decoration: none;
 }
 
@@ -64,9 +69,20 @@ header {
     background-color: #f1f1f1;
 }
 
-.button-nav:hover {
+.button-nav a{
     text-decoration: none;
-    background-color: #003AFF;
+    background: transparent;
+}
+
+.button-nav:hover{
+    text-decoration: none;
+    background-color: #91007d;
+    color: #fff;
+    border: 1px #fff solid;
+}
+
+.button-nav a:hover{
+    text-decoration: none;
     color: #fff;
 }
 
@@ -169,25 +185,27 @@ main {
 #errorNombre {
     color: #FA0013;
     font-size: 17px;
-
 }
 
 footer {
     width: 100%;
     display: flex;
-    text-align: center;
     flex-direction: column;
     padding-bottom: 20px;
-    color: #f1f1f1;
     font-size: 17px;
+    height: auto;
     padding: 3%;
     justify-content: center;
+    text-align: center;
+    background-color: #FF00C1;
+    order: 3;
+    color: #fff;
+    text-shadow: 2px 2px #73706e;
 }
 
 footer a {
     padding-top: 20px;
     text-decoration: none;
-    color: #000;
 }
 
 /*TABLE CONTENT*/
