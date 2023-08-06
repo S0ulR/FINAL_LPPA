@@ -7,7 +7,7 @@
     <title>Wordle - Exámen final LPPA - Alumno:Leandro Ruíz</title>
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/styles.css">
-    <script src="scripts.js"></script>
+    <script src="./js/script.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;1,100&display=swap" rel="stylesheet">
@@ -86,31 +86,30 @@
             </fieldset>
         </form>
     </main>
- <!-- Modal -->
-<div id="modalPartidas" class="modal">
-    <div class="modal_content">
-        <p class="modal_message">PARTIDAS</p>
-        <div id="table-wrapper">
-            <div id="table-scroll">
-                <table id="tabla">
-                    <thead>
-                        <tr>
-                            <th id="numero-partida">PARTIDA</th>
-                            <th>NOMBRE</th>
-                            <th id="orden-por-fecha">FECHA</th>
-                            <th id="orden-por-puntaje">PUNTAJE</th>
-                        </tr>
-                    </thead>
-                    <tbody id="puntajes">
-                    </tbody>
-                </table>
+    <!-- Modal -->
+    <div id="modalPartidas" class="modal">
+        <div class="modal_content">
+            <p class="modal_message">PARTIDAS</p>
+            <div id="table-wrapper">
+                <div id="table-scroll">
+                    <table id="tabla">
+                        <thead>
+                            <tr>
+                                <th id="numero-partida">PARTIDA</th>
+                                <th>NOMBRE</th>
+                                <th id="orden-por-fecha">FECHA</th>
+                                <th id="orden-por-puntaje">PUNTAJE</th>
+                            </tr>
+                        </thead>
+                        <tbody id="puntajes"></tbody>
+                    </table>
+                </div>
             </div>
+            <p class="modal_close" id="close">CERRAR</p>
         </div>
-        <p class="modal_close" id="close">CERRAR</p>
     </div>
-</div>
     <footer>
-
+        <div id="copyright">Copyright&copy; 2023 - Página creada por Laring S.A. - Todos los derechos reservados</div>
     </footer>
 </body>
 </html>
